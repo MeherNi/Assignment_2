@@ -1,11 +1,19 @@
-*{
+* {
     margin: 0;
     font-family: 'Work Sans';
 }
+
+/* header and navigation style */
+.header {
+    background: rgba(255, 144, 14, 0.1);
+
+}
+
 .nav-title {
-    font-weight: 800;
+    font-weight: 700;
     font-size: 45px;
 }
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -20,4 +28,43 @@ nav li {
 nav ul {
     display: flex;
     align-items: center;
+}
+
+/* banner styles */
+.banner {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.banner h2 {
+    font-weight: 700;
+    font-size: 64px;
+}
+
+.banner-description {
+    color: #727272;
+    margin-top: 30px;
+}
+
+.btn-primary {
+    font-weight: 600;
+    font-size: 20px;
+    background: #FF900E;
+    border-radius: 8px;
+    color: #FFFFFF;
+    padding: 20px 24px;
+    border: 0;
+    margin-top: 30px;
+}
+
+.banner .banner-img img{
+    width: 900px;
+    margin-top: 50px;
+    margin-bottom: 45px;
+    
+}
+/* main section */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
 }
