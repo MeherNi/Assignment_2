@@ -1,0 +1,11 @@
+@media screen and (max-width: 576px) {
+    .feature-main-blk {
+        flex-direction: column;
+}
+.feature-img-blk {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 24px;
+    width: 100%;
+}
+
+}
