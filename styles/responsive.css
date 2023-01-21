@@ -1,4 +1,15 @@
 @media screen and (max-width: 576px) {
+    .banner .banner-img img{
+        width: 80%;
+    }
+    .banner .banner-info{
+        width: 100%;
+    }
+    nav, nav ul{
+        flex-direction: column;
+        padding: 20px;
+
+    }
     .feature-main-blk {
         flex-direction: column;
 }
@@ -7,5 +18,51 @@
     gap: 24px;
     width: 100%;
 }
-
+.feature-content{
+    margin-left: 0;
+    margin-top: 20px;
+    width: 100%;
+} 
+.service-main-blk{
+    flex-direction: column;
+    gap: 30px;
+}
+.service-main-content{
+    width: 100%;
+}
+.service-img-blk{
+    width: 100%;
+}
+.service-experience{
+    display: none;
+}
+.service-area {
+    padding-bottom: 60px;
+}
+.fact-main-blk{
+    flex-direction: column;
+}
+.fact-topbar{
+    margin: 0 50px 20px;
+    width: 50%;
+}
+.fact-area{
+    padding-bottom: 30px;
+}
+.sponsor-main-blk{
+    flex-direction: column;
+}
+ .sponsor-topbar{
+    width: 100%;
+    
+}
+.sponsor-area{
+    padding: 50px;
+}
+.sponsor-single-blk{
+    margin-top: 20px;
+}
+.footer-area .container{
+    width: 100%;
+}
 }
